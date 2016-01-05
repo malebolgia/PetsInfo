@@ -4,7 +4,7 @@
                -> placeholder(trans('pet::petimage.placeholder.title'))!!}
                </div>
                     <div class='col-md-4 col-sm-6'>
-               {!! Former::image('image_path')
+               {!! Former::file('image_path')
                -> label(trans('pet::petimage.label.image_path'))
                -> placeholder(trans('pet::petimage.placeholder.image_path'))!!}
                </div>

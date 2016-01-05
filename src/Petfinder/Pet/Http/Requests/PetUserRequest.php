@@ -29,7 +29,6 @@ class PetUserRequest extends Request {
 		if($request->isMethod('POST'))
 			return [
 				'name_of_pet'          => 'required'
-            'user_id'          => 'required'
             'perfecture_id'          => 'required'
             'reward_id'          => 'required'
             'lost_date'          => 'required'
@@ -48,7 +47,6 @@ class PetUserRequest extends Request {
 		if($request->isMethod('PUT') || $request->isMethod('PATCH'))
 			return [
 				'name_of_pet'          => 'required'
-            'user_id'          => 'required'
             'perfecture_id'          => 'required'
             'reward_id'          => 'required'
             'lost_date'          => 'required'

@@ -3,7 +3,6 @@
     <thead>
         <td>Id</td>
         <th>{!! trans('pet::pet.label.name_of_pet')!!}</th>
-            <th>{!! trans('pet::pet.label.user_id')!!}</th>
             <th>{!! trans('pet::pet.label.perfecture_id')!!}</th>
             <th>{!! trans('pet::pet.label.reward_id')!!}</th>
             <th>{!! trans('pet::pet.label.lost_date')!!}</th>
@@ -23,7 +22,6 @@
         <tr>
             <td><a href="/user/pet/pet/{{ $pet->eid }}"> {{ $pet->id }} </a></td>
             <td>{{ $pet->name_of_pet }}</td>
-            <td>{{ $pet->user_id }}</td>
             <td>{{ $pet->perfecture_id }}</td>
             <td>{{ $pet->reward_id }}</td>
             <td>{{ $pet->lost_date }}</td>

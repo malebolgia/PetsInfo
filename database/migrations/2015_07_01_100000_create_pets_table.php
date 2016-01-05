@@ -18,8 +18,7 @@ class CreatePetsTable extends Migration {
              */
             Schema::create('pets', function($table) {
                 $table->increments('id');
-                $table->string('name_of_pet', )->nullable();
-                    $table->bigInteger('user_id')->nullable();
+                $table->string('name_of_pet')->nullable();
                     $table->bigInteger('perfecture_id')->nullable();
                     $table->bigInteger('reward_id')->nullable();
                     $table->dateTime('lost_date')->nullable();

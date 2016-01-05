@@ -24,7 +24,7 @@ return [
                     'name'          => 'pet',
                     'table'         => 'pets',
                     'model'         => 'Petfinder\Pet\Models\Pet',
-                    'permissions'   => ['admin'     => ['view', 'create', 'edit', 'delete']], 
+                    'permissions'   => ['admin'     => ['view', 'create', 'edit', 'delete']],
                     'image'         =>
                         [
                         'xs'        => ['width' =>'60',     'height' =>'45'],
@@ -34,9 +34,9 @@ return [
                         'xl'        => ['width' =>'1000',   'height' =>'750'],
                         ],
 
-                    'fillable'          =>  ['user_id', 'name_of_pet',            'user_id',            'perfecture_id',            'reward_id',            'lost_date',            'color_of_pet',            'age_of_pet',            'character',            'characteristics',            'status',            'map_lat',            'map_lang',            'other_amount',],
-                    'listfields'        =>  ['id', 'name_of_pet',            'user_id',            'perfecture_id',            'reward_id',            'lost_date',            'color_of_pet',            'age_of_pet',            'character',            'characteristics',            'status',            'map_lat',            'map_lang',            'other_amount',],
-                    'translatable'      =>  ['name_of_pet',            'user_id',            'perfecture_id',            'reward_id',            'lost_date',            'color_of_pet',            'age_of_pet',            'character',            'characteristics',            'status',            'map_lat',            'map_lang',            'other_amount',],
+                    'fillable'          =>  ['user_id', 'name_of_pet',            'perfecture_id',            'reward_id',            'lost_date',            'color_of_pet',            'age_of_pet',            'character',            'characteristics',            'status',            'map_lat',            'map_lang',            'other_amount',],
+                    'listfields'        =>  ['id', 'name_of_pet',            'perfecture_id',            'reward_id',            'lost_date',            'color_of_pet',            'age_of_pet',            'character',            'characteristics',            'status',            'map_lat',            'map_lang',            'other_amount',],
+                    'translatable'      =>  ['name_of_pet',            'perfecture_id',            'reward_id',            'lost_date',            'color_of_pet',            'age_of_pet',            'character',            'characteristics',            'status',            'map_lat',            'map_lang',            'other_amount',],
 
                     'upload-folder'     =>  '/uploads/pet/pet',
                     'uploadable'        =>  [
@@ -50,7 +50,7 @@ return [
                     'name'          => 'petimage',
                     'table'         => 'petimages',
                     'model'         => 'Petfinder\Pet\Models\Petimage',
-                    'permissions'   => ['admin'     => ['view', 'create', 'edit', 'delete']], 
+                    'permissions'   => ['admin'     => ['view', 'create', 'edit', 'delete']],
                     'image'         =>
                         [
                         'xs'        => ['width' =>'60',     'height' =>'45'],

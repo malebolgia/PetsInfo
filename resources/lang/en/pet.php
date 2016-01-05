@@ -8,7 +8,6 @@ return [
     // Options for select boxes
     "options"  => [
             'name_of_pet' => [],
-            'user_id' => [],
             'perfecture_id' => [],
             'reward_id' => [],
             'lost_date' => [],
@@ -17,10 +16,10 @@ return [
             'character' => [],
             'characteristics' => [],
             'status' => [
-                          '0' => 'Loss',
-				                  '1' => 'Canceled',
-				                  '2' => 'Found',
-                         ],
+                     '0' => 'Loss',
+				             '1' => 'Canceled',
+				             '2' => 'Found',
+                    ],
             'map_lat' => [],
             'map_lang' => [],
             'other_amount' => [],
@@ -30,7 +29,6 @@ return [
     // Placeholder for inputs
     "placeholder" => [
             'name_of_pet'        => 'Name of Pet',
-            'user_id'        => '',
             'perfecture_id'        => '',
             'reward_id'        => '',
             'lost_date'        => 'Date of Lost',
@@ -48,7 +46,6 @@ return [
     // Labels for inputs
     "label" => [
             'name_of_pet'        => 'Name of Pet',
-            'user_id'        => '',
             'perfecture_id'        => '',
             'reward_id'        => '',
             'lost_date'        => 'Date of Lost',

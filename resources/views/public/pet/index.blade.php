@@ -11,14 +11,6 @@
       </div>
       <div class="col-md-4 col-sm-6">
          <div class"form-group">
-              <label for="user_id">
-                {!! trans('pet::pet.label.user_id') !!}
-              </label><br />
-              {!! $pet['user_id'] !!}
-         </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-         <div class"form-group">
               <label for="perfecture_id">
                 {!! trans('pet::pet.label.perfecture_id') !!}
               </label><br />

@@ -26,7 +26,6 @@
 <table id="main-list" class="table table-striped table-bordered">
     <thead>
         <th>{!! trans('pet::pet.label.name_of_pet')!!}</th>
-            <th>{!! trans('pet::pet.label.user_id')!!}</th>
             <th>{!! trans('pet::pet.label.perfecture_id')!!}</th>
             <th>{!! trans('pet::pet.label.reward_id')!!}</th>
             <th>{!! trans('pet::pet.label.lost_date')!!}</th>
@@ -52,7 +51,6 @@ $(document).ready(function(){
         "ajax": '{{ URL::to('/admin/pet/pet') }}',
         "columns": [
             {data :'name_of_pet'},
-            {data :'user_id'},
             {data :'perfecture_id'},
             {data :'reward_id'},
             {data :'lost_date'},
