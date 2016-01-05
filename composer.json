@@ -1,0 +1,23 @@
+{
+    "name": "petfinder/pet",
+    "description": "",
+    "keywords": ["framework", "laravel", "lavalite", "Pet"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-0": {
+            "Petfinder\\Pet\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
